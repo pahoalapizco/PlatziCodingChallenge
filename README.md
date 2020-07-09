@@ -10,6 +10,7 @@ npm install
 
 ## Contenido
 - [Día 2 - Área de un Triangulo](#Día-2)
+- [Día 3 - Reloj](#Día-3)
 
 
 
@@ -21,9 +22,20 @@ El ejemplo esta hecho para ejecutarse desde la terminal.
 Modo de uso:
 
 ```shell
-node day2 get-area --b=5 --h=10
+node day2 get-area -b=5 -h=10
 ```
 o bien
 ```shell
 node day2 get-area --base=5 --height=10
+```
+
+## `Día 3`
+Convierte las horas y minutos a segundos.
+Este reto esta hecho para ejecutarse desde la terminal
+```shell
+node day3 clock -h=32 -m=20
+```
+o bien
+```shell
+node day clock --hours=32 --minutes=20
 ```
