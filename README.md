@@ -39,3 +39,13 @@ o bien
 ```shell
 node day clock --hours=32 --minutes=20
 ```
+## `Día 4`
+Repite N veces la palabra mediante una función recursicva.
+Este reto esta hecho para ejecutarse desde la terminal
+```shell
+node day3 repeat -w=platzi -r=20
+```
+o bien
+```shell
+node day clock --word=platzi --reps=20
+```
