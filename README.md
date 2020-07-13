@@ -11,6 +11,8 @@ npm install
 ## Contenido
 - [Día 2 - Área de un Triangulo](#Día-2)
 - [Día 3 - Reloj](#Día-3)
+- [Día 5 - Repite la palabra](#Día-4)
+- [Día 5 - Elimina las vocales](#Día-5)
 
 
 
@@ -43,9 +45,18 @@ node day clock --hours=32 --minutes=20
 Repite N veces la palabra mediante una función recursicva.
 Este reto esta hecho para ejecutarse desde la terminal
 ```shell
-node day3 repeat -w=platzi -r=20
+node day4 repeat -w=platzi -r=20
 ```
 o bien
 ```shell
-node day clock --word=platzi --reps=20
+node day4 repeat --word=platzi --reps=20
+```
+## `Día 5`
+Elimina las vocales minusculas, mayusculas y con acento de un
+parrafo.
+Para correlo puede copiar y pegar el código del archivo `day5.js`
+en la consula de su navegador, o bien desde la terminal:
+
+```shell
+node day5
 ```
