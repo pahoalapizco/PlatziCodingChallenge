@@ -13,6 +13,7 @@ npm install
 - [Día 3 - Reloj](#Día-3)
 - [Día 5 - Repite la palabra](#Día-4)
 - [Día 5 - Elimina las vocales](#Día-5)
+- [Día 6 - Calculadora](#Día-6)
 
 
 
@@ -59,4 +60,15 @@ en la consula de su navegador, o bien desde la terminal:
 
 ```shell
 node day5
+```
+## `Día 6`
+Calculadora que recibe dos valores y un operador parra realizar 
+el calculo correspondiente.
+Este reto esta hecho para ejecutarse desde la terminal
+```shell
+node day6 calculate --v1=2 --op=+ --v2=2
+```
+o bien
+```shell
+node day6 calculate --valie1=2 --operator=+ --value2=2
 ```
