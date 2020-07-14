@@ -11,9 +11,10 @@ npm install
 ## Contenido
 - [Día 2 - Área de un Triangulo](#Día-2)
 - [Día 3 - Reloj](#Día-3)
-- [Día 5 - Repite la palabra](#Día-4)
+- [Día 4 - Repite la palabra](#Día-4)
 - [Día 5 - Elimina las vocales](#Día-5)
 - [Día 6 - Calculadora](#Día-6)
+- [Día 7 - Piedra, Papel O Tijeras](#Día-7)
 
 
 
@@ -72,3 +73,15 @@ o bien
 ```shell
 node day6 calculate --valie1=2 --operator=+ --value2=2
 ```
+## `Día 7`
+Clasico juego de Priedra, Papel o Tijeras, el usuario elige una 
+de las tres opciones
+ - Piedra: 0
+ - Papel: 1
+ - Tijera: 2
+
+la computadora elegira la suya y la función determinará quien
+es el ganador.
+
+Para probar este ejercición Copia  el código que esta dentro
+del archivo `day7.js` y pegalo en la consola del navegador.
