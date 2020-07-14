@@ -11,7 +11,7 @@ npm install
 ## Contenido
 - [Día 2 - Área de un Triangulo](#Día-2)
 - [Día 3 - Reloj](#Día-3)
-- [Día 5 - Repite la palabra](#Día-4)
+- [Día 4 - Repite la palabra](#Día-4)
 - [Día 5 - Elimina las vocales](#Día-5)
 - [Día 6 - Calculadora](#Día-6)
 
