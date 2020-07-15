@@ -15,6 +15,7 @@ npm install
 - [Día 5 - Elimina las vocales](#Día-5)
 - [Día 6 - Calculadora](#Día-6)
 - [Día 7 - Piedra, Papel O Tijeras](#Día-7)
+- [Día 8 - Volumen y Área de un Cilindro](#Día-8)
 
 
 
@@ -85,3 +86,25 @@ es el ganador.
 
 Para probar este ejercición Copia  el código que esta dentro
 del archivo `day7.js` y pegalo en la consola del navegador.
+
+## `Día 8`
+Calcula el Volumen o el Área de un cilindro según el valor
+de su radio (r) y su altura (h).
+
+Formula para calcular el Volumen:
+> V = πr^2h
+
+Formula para calcular el Área:
+> V = 2πr(r + h)
+
+Este reto esta hecho para ejecutarse desde la terminal
+```shell
+node day8 area -r=3 -h=7 -u=m
+node day8 volume -r=3 -h=7 -u=m
+```
+o bien
+```shell
+node day8 area --radius=3 --heigt=7 --unit=m
+node day8 volume --radius=3 --heigt=7 --unit=m
+```
+
