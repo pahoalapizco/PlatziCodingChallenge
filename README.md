@@ -16,6 +16,7 @@ npm install
 - [Día 6 - Calculadora](#Día-6)
 - [Día 7 - Piedra, Papel O Tijeras](#Día-7)
 - [Día 8 - Volumen y Área de un Cilindro](#Día-8)
+- [Día 9 - Número secreto](#Día-9)
 
 
 
@@ -90,6 +91,7 @@ del archivo `day7.js` y pegalo en la consola del navegador.
 ## `Día 8`
 Calcula el Volumen o el Área de un cilindro según el valor
 de su radio (r) y su altura (h).
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-volumen-de-un-cilindro-numero-secreto/)
 
 Formula para calcular el Volumen:
 > V = πr^2h
@@ -108,3 +110,19 @@ node day8 area --radius=3 --heigt=7 --unit=m
 node day8 volume --radius=3 --heigt=7 --unit=m
 ```
 
+## `Día 9`
+Genera un numero aleatorio el cual deberá ser adivinado por el usuario.
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-volumen-de-un-cilindro-numero-secreto/)
+
+Para correlo puede copiar y pegar el código del archivo `day5.js`
+en la consula de tú navegador.
+
+### Uso de la función 
+```js
+// Asígnamos el nivel de dificultar
+const level = 20
+console.log(secretNumber(level));
+
+// Si no enviamos el nivel se deja por default el nivel 10
+console.log(secretNumber());
+```
