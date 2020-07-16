@@ -65,8 +65,11 @@ en la consula de su navegador, o bien desde la terminal:
 node day5
 ```
 ## `Día 6`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-calculadora-piedra-papel-o-tijera/)
+
 Calculadora que recibe dos valores y un operador parra realizar 
 el calculo correspondiente.
+
 Este reto esta hecho para ejecutarse desde la terminal
 ```shell
 node day6 calculate --v1=2 --op=+ --v2=2
@@ -76,6 +79,9 @@ o bien
 node day6 calculate --valie1=2 --operator=+ --value2=2
 ```
 ## `Día 7`
+
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-calculadora-piedra-papel-o-tijera/)
+
 Clasico juego de Priedra, Papel o Tijeras, el usuario elige una 
 de las tres opciones
  - Piedra: 0
@@ -85,13 +91,15 @@ de las tres opciones
 la computadora elegira la suya y la función determinará quien
 es el ganador.
 
+
 Para probar este ejercición Copia  el código que esta dentro
 del archivo `day7.js` y pegalo en la consola del navegador.
 
 ## `Día 8`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-volumen-de-un-cilindro-numero-secreto/)
+
 Calcula el Volumen o el Área de un cilindro según el valor
 de su radio (r) y su altura (h).
-[Challenge](https://platzi.com/comunidad/platzicodingchallenge-volumen-de-un-cilindro-numero-secreto/)
 
 Formula para calcular el Volumen:
 > V = πr^2h
@@ -111,10 +119,11 @@ node day8 volume --radius=3 --heigt=7 --unit=m
 ```
 
 ## `Día 9`
-Genera un numero aleatorio el cual deberá ser adivinado por el usuario.
 [Challenge](https://platzi.com/comunidad/platzicodingchallenge-volumen-de-un-cilindro-numero-secreto/)
 
-Para correlo puede copiar y pegar el código del archivo `day5.js`
+Genera un numero aleatorio el cual deberá ser adivinado por el usuario.
+
+Para correlo puede copiar y pegar el código del archivo `day9.js`
 en la consula de tú navegador.
 
 ### Uso de la función 
