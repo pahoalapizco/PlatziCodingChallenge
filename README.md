@@ -17,6 +17,7 @@ npm install
 - [Día 7 - Piedra, Papel O Tijeras](#Día-7)
 - [Día 8 - Volumen y Área de un Cilindro](#Día-8)
 - [Día 9 - Número secreto](#Día-9)
+- [Día 10 - Pig Latin](#Día-10)
 
 
 
@@ -134,4 +135,21 @@ console.log(secretNumber(level));
 
 // Si no enviamos el nivel se deja por default el nivel 10
 console.log(secretNumber());
+```
+
+## `Día 10`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-traductor-de-_pig-latin_/)
+
+Traduce un texto a **_Pig Latin_**, la traducción es palabra por palabra y sigue las siguientes reglas:
+1. Si una palabra comienza con sonido de consonante, se pasan todas las consonantes antes de la primer vocal y se agrega la sílaba “ay” al final
+2. Si la palabra inicia con vocal, entonces agrega la sílaba “way” al final 
+
+Para correlo puede copiar y pegar el código del archivo `day10.js`
+en la consula de tú navegador.
+
+### Uso de la función 
+```js
+// Mandamos el texto que deseamos traducir
+const text = 'This is my new text';
+console.log(translate(text));
 ```
