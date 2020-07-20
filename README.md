@@ -18,6 +18,7 @@ npm install
 - [Día 8 - Volumen y Área de un Cilindro](#Día-8)
 - [Día 9 - Número secreto](#Día-9)
 - [Día 10 - Pig Latin](#Día-10)
+- [Día 11 - Generador de Contraseñas](#Día-11)
 
 
 
@@ -152,4 +153,19 @@ en la consula de tú navegador.
 // Mandamos el texto que deseamos traducir
 const text = 'This is my new text';
 console.log(translate(text));
+```
+
+## `Día 11`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-generador-de-contrasenas/)
+
+Generá constraseñas aleatorias segun los parametros capturados por el usuario:
+- Longitud de la contraseña.
+- Si incluirá minúsculas, mayúsculas, números y caracteres especiales.
+
+Para correlo puede copiar y pegar el código del archivo `day11.js`
+en la consula de tú navegador.
+
+### Uso de la función 
+```js
+console.log(create());
 ```
