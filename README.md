@@ -31,41 +31,41 @@ El ejemplo esta hecho para ejecutarse desde la terminal.
 Modo de uso:
 
 ```shell
-node day2 get-area -b=5 -h=10
+node challenge/day2 get-area -b=5 -h=10
 ```
 o bien
 ```shell
-node day2 get-area --base=5 --height=10
+node challenge/day2 get-area --base=5 --height=10
 ```
 
 ## `Día 3`
 Convierte las horas y minutos a segundos.
 Este reto esta hecho para ejecutarse desde la terminal
 ```shell
-node day3 clock -h=32 -m=20
+node challenge/day3 clock -h=32 -m=20
 ```
 o bien
 ```shell
-node day clock --hours=32 --minutes=20
+node challenge/day3 clock --hours=32 --minutes=20
 ```
 ## `Día 4`
 Repite N veces la palabra mediante una función recursicva.
 Este reto esta hecho para ejecutarse desde la terminal
 ```shell
-node day4 repeat -w=platzi -r=20
+node challenge/day4 repeat -w=platzi -r=20
 ```
 o bien
 ```shell
-node day4 repeat --word=platzi --reps=20
+node challenge/day4 repeat --word=platzi --reps=20
 ```
 ## `Día 5`
 Elimina las vocales minusculas, mayusculas y con acento de un
 parrafo.
-Para correlo puede copiar y pegar el código del archivo `day5.js`
+Para correlo puede copiar y pegar el código del archivo `challenge/day5.js`
 en la consula de su navegador, o bien desde la terminal:
 
 ```shell
-node day5
+node challenge/day5
 ```
 ## `Día 6`
 [Challenge](https://platzi.com/comunidad/platzicodingchallenge-calculadora-piedra-papel-o-tijera/)
@@ -75,11 +75,11 @@ el calculo correspondiente.
 
 Este reto esta hecho para ejecutarse desde la terminal
 ```shell
-node day6 calculate --v1=2 --op=+ --v2=2
+node challenge/day6 calculate --v1=2 --op=+ --v2=2
 ```
 o bien
 ```shell
-node day6 calculate --valie1=2 --operator=+ --value2=2
+node challenge/day6 calculate --valie1=2 --operator=+ --value2=2
 ```
 ## `Día 7`
 
@@ -96,7 +96,7 @@ es el ganador.
 
 
 Para probar este ejercición Copia  el código que esta dentro
-del archivo `day7.js` y pegalo en la consola del navegador.
+del archivo `challenge/day7.js` y pegalo en la consola del navegador.
 
 ## `Día 8`
 [Challenge](https://platzi.com/comunidad/platzicodingchallenge-volumen-de-un-cilindro-numero-secreto/)
@@ -112,13 +112,13 @@ Formula para calcular el Área:
 
 Este reto esta hecho para ejecutarse desde la terminal
 ```shell
-node day8 area -r=3 -h=7 -u=m
-node day8 volume -r=3 -h=7 -u=m
+node challenge/day8 area -r=3 -h=7 -u=m
+node challenge/day8 volume -r=3 -h=7 -u=m
 ```
 o bien
 ```shell
-node day8 area --radius=3 --heigt=7 --unit=m
-node day8 volume --radius=3 --heigt=7 --unit=m
+node challenge/day8 area --radius=3 --heigt=7 --unit=m
+node challenge/day8 volume --radius=3 --heigt=7 --unit=m
 ```
 
 ## `Día 9`
@@ -126,7 +126,7 @@ node day8 volume --radius=3 --heigt=7 --unit=m
 
 Genera un numero aleatorio el cual deberá ser adivinado por el usuario.
 
-Para correlo puede copiar y pegar el código del archivo `day9.js`
+Para correlo puede copiar y pegar el código del archivo `challenge/day9.js`
 en la consula de tú navegador.
 
 ### Uso de la función 
@@ -146,7 +146,7 @@ Traduce un texto a **_Pig Latin_**, la traducción es palabra por palabra y sigu
 1. Si una palabra comienza con sonido de consonante, se pasan todas las consonantes antes de la primer vocal y se agrega la sílaba “ay” al final
 2. Si la palabra inicia con vocal, entonces agrega la sílaba “way” al final 
 
-Para correlo puede copiar y pegar el código del archivo `day10.js`
+Para correlo puede copiar y pegar el código del archivo `challenge/day10.js`
 en la consula de tú navegador.
 
 ### Uso de la función 
@@ -163,7 +163,7 @@ Generá constraseñas aleatorias segun los parametros capturados por el usuario:
 - Longitud de la contraseña.
 - Si incluirá minúsculas, mayúsculas, números y caracteres especiales.
 
-Para correlo puede copiar y pegar el código del archivo `day11.js`
+Para correlo puede copiar y pegar el código del archivo `challenge/day11.js`
 en la consula de tú navegador.
 
 ### Uso de la función 
@@ -185,9 +185,9 @@ Formatos validos leer una fecha:
 
 Este reto esta hecho para ejecutarse desde la terminal
 ```shell
-node day12 next -b=1991-11-21
+node challenge/day12 next -b=1991-11-21
 ```
 o bien
 ```shell
-node day12 next --birthday=1991-11-21
+node challenge/day12 next --birthday=1991-11-21
 ```
