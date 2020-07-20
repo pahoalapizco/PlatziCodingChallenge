@@ -19,6 +19,7 @@ npm install
 - [Día 9 - Número secreto](#Día-9)
 - [Día 10 - Pig Latin](#Día-10)
 - [Día 11 - Generador de Contraseñas](#Día-11)
+- [Día 12 - Próximo Cumpleaños](#Día-2)
 
 
 
@@ -168,4 +169,25 @@ en la consula de tú navegador.
 ### Uso de la función 
 ```js
 console.log(create());
+```
+
+
+
+## `Día 12`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-proximo-cumpleanos/)
+
+Calcula los días que faltan para el cumpleaños del usuario según la fecha ingresada.
+
+Formatos validos leer una fecha:
+1. aaaa-mm-dd
+2. aaaa/mm/dd
+3. aaaa.mm.dd
+
+Este reto esta hecho para ejecutarse desde la terminal
+```shell
+node day12 next -b=1991-11-21
+```
+o bien
+```shell
+node day12 next --birthday=1991-11-21
 ```
