@@ -19,7 +19,8 @@ npm install
 - [Día 9 - Número secreto](#Día-9)
 - [Día 10 - Pig Latin](#Día-10)
 - [Día 11 - Generador de Contraseñas](#Día-11)
-- [Día 12 - Próximo Cumpleaños](#Día-2)
+- [Día 12 - Próximo Cumpleaños](#Día-12)
+- [Día 13 - Calculadora de Propinas](#Día-13)
 
 
 
@@ -62,7 +63,7 @@ node challenge/day4 repeat --word=platzi --reps=20
 Elimina las vocales minusculas, mayusculas y con acento de un
 parrafo.
 Para correlo puede copiar y pegar el código del archivo `challenge/day5.js`
-en la consula de su navegador, o bien desde la terminal:
+en la consola de su navegador, o bien desde la terminal:
 
 ```shell
 node challenge/day5
@@ -127,7 +128,7 @@ node challenge/day8 volume --radius=3 --heigt=7 --unit=m
 Genera un numero aleatorio el cual deberá ser adivinado por el usuario.
 
 Para correlo puede copiar y pegar el código del archivo `challenge/day9.js`
-en la consula de tú navegador.
+en la consola de tú navegador.
 
 ### Uso de la función 
 ```js
@@ -147,7 +148,7 @@ Traduce un texto a **_Pig Latin_**, la traducción es palabra por palabra y sigu
 2. Si la palabra inicia con vocal, entonces agrega la sílaba “way” al final 
 
 Para correlo puede copiar y pegar el código del archivo `challenge/day10.js`
-en la consula de tú navegador.
+en la consola de tú navegador.
 
 ### Uso de la función 
 ```js
@@ -164,7 +165,7 @@ Generá constraseñas aleatorias segun los parametros capturados por el usuario:
 - Si incluirá minúsculas, mayúsculas, números y caracteres especiales.
 
 Para correlo puede copiar y pegar el código del archivo `challenge/day11.js`
-en la consula de tú navegador.
+en la consola de tú navegador.
 
 ### Uso de la función 
 ```js
@@ -190,4 +191,38 @@ node challenge/day12 next -b=1991-11-21
 o bien
 ```shell
 node challenge/day12 next --birthday=1991-11-21
+```
+
+## `Día 13`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-calculadora-de-propina/)
+
+Crea comandas de platillos según un menú en especifico, obtiene el sub total del pedido, menu, platillos y la propina.
+
+Para probarlo puede copiar y pegar el código del archivo `challenge/day13.js`
+en la consola de tú navegador.
+
+### Modo de implementación 
+```js
+const menu = [
+  {
+    id: 1,
+    descripcion: 'Torta Ahogada',
+    precio: 35
+  },{
+    id: 2,
+    descripcion: 'Limonada',
+    precio: 25
+  }
+];
+
+const comanda = new Comanda(menu);
+comanda.setPlatillo({
+    id: 1,
+    descripcion: 'Torta Ahogada',
+    precio: 35,
+    cantidad: 1
+  });
+
+const pripina = comanda.calcularPropina(10);
+
 ```
