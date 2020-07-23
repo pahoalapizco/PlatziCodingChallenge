@@ -247,7 +247,7 @@ en la consola de tú navegador.
 ```js
 const num = 7
 const primosArr = numerosPrimos(num);
-cosole.log(primosArr);
+console.log(primosArr);
 
 /*
 * resultado:

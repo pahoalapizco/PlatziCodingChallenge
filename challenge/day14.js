@@ -38,4 +38,7 @@ const numerosPrimos = num => {
   return primos;
 }
 
-console.log('primos: ', numerosPrimos(7));
+// Imprementación
+const num = 7
+const primosArr = numerosPrimos(num);
+console.log(primosArr);
