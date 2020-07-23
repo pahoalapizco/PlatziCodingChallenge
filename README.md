@@ -21,6 +21,7 @@ npm install
 - [Día 11 - Generador de Contraseñas](#Día-11)
 - [Día 12 - Próximo Cumpleaños](#Día-12)
 - [Día 13 - Calculadora de Propinas](#Día-13)
+- [Día 14 - Números Primos](#Día-14)
 
 
 
@@ -224,5 +225,33 @@ comanda.setPlatillo({
   });
 
 const pripina = comanda.calcularPropina(10);
+
+```
+## `Día 14`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-numeros-primos/)
+
+Obtiene todos los números primos que existen entre 1 y N 
+
+> N = Número determinado por el usuario
+
+Características de los números primos:
+
+1. Es un número natural entero mayor a 1.
+2. Tiene únicamente 2 divisores: el mismo número y el 1.
+
+Para probarlo puede copiar y pegar el código del archivo `challenge/day14.js`
+en la consola de tú navegador.
+
+
+### Implementación 
+```js
+const num = 7
+const primosArr = numerosPrimos(num);
+cosole.log(primosArr);
+
+/*
+* resultado:
+* [ 2, 3, 5, 7 ]
+*/
 
 ```
