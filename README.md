@@ -23,6 +23,7 @@ npm install
 - [Día 13 - Calculadora de Propinas](#Día-13)
 - [Día 14 - Números Primos](#Día-14)
 - [Día 15 - Calculadora de volúmenes](#Día-15)
+- [Día 17 - Ordenamiento de números](#Día-17)
 
 
 
@@ -283,4 +284,25 @@ en la consola de tú navegador.
 ```js
 console.log(CalcularVolumenes(0));
 
+```
+
+
+## `Día 17`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-ordenar-una-lista-de-numeros-de-mayor-a-menor/)
+
+Ordena una lista de números generados aleatoriamente de 1 hasta un limite especifico. 
+
+Genera una lista de números aleatorios de 1 hasta N (limite), mediante el algoritmo de ordenamiento 
+de la burbuja ordenamos la lista de menor a mayor y viceversa 
+
+Para probarlo puede copiar y pegar el código del archivo `challenge/day17.js`
+en la consola de tú navegador.
+
+
+### Implementación 
+```js
+const limite = 90;
+let aleatorios = [...generarAleatorios(limite)];
+const mayorMenor = ordenAscendente(aleatorios).join(', ');
+const menorMayor = ordenDescendente(aleatorios).join(', ');
 ```
