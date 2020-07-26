@@ -1,3 +1,4 @@
+// Generear números aleatoreos
 const generarAleatorios = limite => {
   let numeros = [];
   do {
@@ -9,24 +10,44 @@ const generarAleatorios = limite => {
   return numeros;
 }
 
-const limite = 90;
-let aleatorios = [...generarAleatorios(limite)];
-
-for(let i = 2; i <= aleatorios.length; i++){
-  let length = aleatorios.length;
-  for(let j = length; j > i; j--) {
-    if(aleatorios[j - 1] > aleatorios[j]){
-      const mayor = aleatorios[j - 1];
-      aleatorios[j - 1] = aleatorios[j];
-      aleatorios[i] = mayor;
+// Ordena arreglo de numeros de menor a mayor
+const ordenAscendente = desordenArr => {
+  const orden = [...desordenArr];
+  for(let i = 1; i < orden.length; i++){
+    let length = orden.length - 1;
+    for(let j = length; j >= i; j--) {
+      if(orden[j - 1] > orden[j]){
+        const temp = orden[j - 1];
+        orden[j - 1] = orden[j];
+        orden[j] = temp;
+      }
     }
   }
+  return orden;
 }
 
-console.log(aleatorios)
+// Ordena arreglo de números de mayor a menor
+const ordenDescendente = desordenArr => {
+  const orden = [...desordenArr];
+  for(let i = 1; i < orden.length; i++){
+    let length = orden.length - 1;
+    for(let j = length; j >= i; j--) {
+      if(orden[j - 1] < orden[j]){
+        const temp = orden[j - 1];
+        orden[j - 1] = orden[j];
+        orden[j] = temp;
+      }
+    }
+  }
+  return orden;
+}
 
-// [90, 30, 15, 40, 70, 50, 80, 101, 150, 200]
-// 200, 150, 101, 90, 80, 70, 50, 40, 30, 15
-// 15, 30, 40, 50, 70, 80, 90, 101, 150, 200
-
-
+(function() {
+  const limite = 90;
+  let aleatorios = [...generarAleatorios(limite)];
+  const mayorMenor = ordenAscendente(aleatorios).join(', ');
+  const menorMayor = ordenDescendente(aleatorios).join(', ');
+  console.log(`Original: ${aleatorios.join(', ')}`);
+  console.log(`Ordenado de menor a mayor: ${mayorMenor}`);
+  console.log(`Ordenado de mayor a menor: ${(menorMayor)}`);
+})();
