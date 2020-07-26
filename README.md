@@ -24,6 +24,7 @@ npm install
 - [Día 14 - Números Primos](#Día-14)
 - [Día 15 - Calculadora de volúmenes](#Día-15)
 - [Día 17 - Ordenamiento de números](#Día-17)
+- [Día 18 - Ordenamiento de números](#Día-18)
 
 
 
@@ -305,4 +306,21 @@ const limite = 90;
 let aleatorios = [...generarAleatorios(limite)];
 const mayorMenor = ordenAscendente(aleatorios).join(', ');
 const menorMayor = ordenDescendente(aleatorios).join(', ');
+```
+
+## `Día 18`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-memory-parte-1/)
+
+De la siguiente lista de caracteres ontenemos de forma aleatoria 4 de estos caracteres sin repetirse.
+
+> " # $ % ( ) / &
+
+
+Para probarlo puede copiar y pegar el código del archivo `challenge/day18.js`
+en la consola de tú navegador.
+
+
+### Implementación 
+```js
+memoryChar().join();
 ```
