@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1> Memory </h1>
+    <section class="main-input">
+      <input id="pasarela" type="text" readonly/>
+    </section>
+    <section class="main-buttons">
+      <!-- ['"', '#', '$', '%', '(', ')', '/', '&']; -->
+      <div><button class="btn" id="comillas" data-signo='"'> " </button> </div>
+      <div><button class="btn" id="numeral" data-signo="#"> # </button></div>
+      <div><button class="btn" id="pesos" data-signo="$"> $ </button></div>
+      <div><button class="btn" id="porcentaje" data-signo="%"> % </button></div>
+      <div><button class="btn" id="abre" data-signo="("> ( </button></div>
+      <div><button class="btn" id="cierra" data-signo=")"> ) </button></div>
+      <div><button class="btn" id="diagonal" data-signo="/"> / </button></div>
+      <div><button class="btn" id="ampersand" data-signo="&"> & </button></div>
+      <button id="btnEmpezar" onclick="empezar()"> Empezar </button>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+  <script src="memory.js"></script>
+</body>
+</html>
