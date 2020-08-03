@@ -24,7 +24,8 @@ npm install
 - [Día 14 - Números Primos](#Día-14)
 - [Día 15 - Calculadora de volúmenes](#Día-15)
 - [Día 17 - Ordenamiento de números](#Día-17)
-- [Día 18 - Ordenamiento de números](#Día-18)
+- [Día 18 - Memory P1](#Día-18)
+- [Días 19 20 y 21 - Memory](#Días-19-20-y-21)
 
 
 
@@ -311,7 +312,7 @@ const menorMayor = ordenDescendente(aleatorios).join(', ');
 ## `Día 18`
 [Challenge](https://platzi.com/comunidad/platzicodingchallenge-memory-parte-1/)
 
-De la siguiente lista de caracteres ontenemos de forma aleatoria 4 de estos caracteres sin repetirse.
+De la siguiente lista de caracteres oBtenemos de forma aleatoria 4 de estos caracteres sin repetirse.
 
 > " # $ % ( ) / &
 
@@ -324,3 +325,27 @@ en la consola de tú navegador.
 ```js
 memoryChar().join();
 ```
+
+## `Días 19 20 y 21`
+[Challenge P2 & P3](https://platzi.com/comunidad/platzicodingchallenge-memory-parte-2-y-3/)
+
+[Challenge P4](https://platzi.com/comunidad/platzicodingchallenge-memory-part4-y-cuanto-vas-a-ahorrar-2/)
+
+De la siguiente lista de caracteres oBtenemos de forma aleatoria 4 de estos caracteres sin repetirse para mostrarlos en pantalla.
+El usuario debe seleccionar el signo en el mismo orden en que aparecieron.
+
+> " # $ % ( ) / &
+
+### Para pobarlo
+Instalar dependencias
+
+`npm install`
+
+Correr live server
+
+`npm start`
+
+
+
+
+
