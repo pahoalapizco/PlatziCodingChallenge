@@ -37,6 +37,7 @@ class Memory {
       ampersand,
       btnEmpezar
     };
+    pasarela.value = "";
   }
 
   toggleBtnEmpezar(){
@@ -87,12 +88,11 @@ class Memory {
   
   elegirSigno(e) {
     const { signo } = e.target.dataset;
-    
+    pasarela.value = signo;
     if(signo === this._secuencia[this._seleccion]){
       this._seleccion++;
 
       if(this._seleccion === this._secuencia.length){
-        console.log(this._seleccion);
         this.quitarEvento();
         this.ganoElJuego();
       }
