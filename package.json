@@ -4,11 +4,12 @@
   "description": "",
   "main": "day2.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server challenge/Memory"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "live-server": "^1.2.1",
     "moment": "^2.27.0",
     "yargs": "^15.4.0"
   }
