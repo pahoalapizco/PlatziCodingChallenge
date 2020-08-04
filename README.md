@@ -26,6 +26,7 @@ npm install
 - [Día 17 - Ordenamiento de números](#Día-17)
 - [Día 18 - Memory P1](#Día-18)
 - [Días 19 20 y 21 - Memory](#Días-19-20-y-21)
+- [Día 21 - ¿Cuánto vas a ahorrar?](#Día-21)
 
 
 
@@ -326,7 +327,7 @@ en la consola de tú navegador.
 memoryChar().join();
 ```
 
-## `Días 19 20 y 21`
+## `Días 19 y 20`
 [Challenge P2 & P3](https://platzi.com/comunidad/platzicodingchallenge-memory-parte-2-y-3/)
 
 [Challenge P4](https://platzi.com/comunidad/platzicodingchallenge-memory-part4-y-cuanto-vas-a-ahorrar-2/)
@@ -345,7 +346,18 @@ Correr live server
 
 `npm start`
 
+## `Día 21`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-memory-part4-y-cuanto-vas-a-ahorrar-2/)
+
+Calculadora de imtereses a una cantidad determinada de meses según una inversión inicial.
+
+Para probarlo puede copiar y pegar el código del archivo `challenge/day21.js`
+en la consola de tú navegador.
 
 
-
-
+### Implementación 
+```js
+// Ahorro total a 6 meses con $100 de inversión inicial
+const ahorroTotal = calcularAhorro(100, 6);
+console.log(ahorroTotal);
+```
