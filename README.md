@@ -389,14 +389,23 @@ const cuenta = new CuentaAhorro(importeInicial, interesMensual, InteresAnual);
 [Challenge](https://platzi.com/comunidad/platzicodingchallenge-puedo-ahorrar-otros-periodos-de-tiempo-puedo-ahorrar-en-otros-bancos/)
 
 Día 26: Ordenar un set de nombres extraidos desde un archivo CSV y los ordena de forma acendente con el metodo de la burbuja.
-
+Día 27: Ordenar el mismo set de nombres del día 26 pero con el algoritmo de ordenamiento "Quick Sort".
 
 ### Implementación 
 ```js
 // Implementación 
 (async function () {
   const nombres = await getNombres();
-  const nombresOrdenados = ordenBurbuja(nombres);
-  console.log("nombresOrdenados", nombresOrdenados);
+  
+  console.time('BubbleSort');
+  const nombresBubbleSort = bubbleSort(nombres);
+  console.timeEnd('BubbleSort');
+  console.log('Bubble Sort', nombresBubbleSort);
+
+  console.time('QuickSort');
+  const nombresQuickSort = ordenQuickSort(nombres);
+  console.timeEnd('QuickSort');
+  console.log('Quick Sort', nombresQuickSort);
 })();
+
 ```

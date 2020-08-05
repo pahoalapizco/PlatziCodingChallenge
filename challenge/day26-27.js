@@ -7,7 +7,7 @@ const getNombres = async () => {
 }
 
 // Algoritmo de ordenamiento: Burbuja (Día 26)
-const ordenBurbuja = desordenArr => {
+const bubbleSort = desordenArr => {
   const orden = [...desordenArr];
   for(let i = 1; i < orden.length; i++){
     let length = orden.length - 1;
@@ -22,9 +22,36 @@ const ordenBurbuja = desordenArr => {
   return orden;
 }
 
+// Algoritmo de ordenamiento QuickSort
+const ordenQuickSort = arr => {
+  if(arr.length === 0) return [];
+
+  let izq = [];
+  let der = [];
+  const pivote = arr[0];
+
+  for(let i = 1; i < arr.length; i++){
+    if(arr[i] > pivote) {
+      der.push(arr[i]);
+    } else {
+      izq.push(arr[i]);
+    }
+  } 
+
+  return [].concat(ordenQuickSort(izq), pivote, ordenQuickSort(der));
+}
+
 // Implementación 
 (async function () {
   const nombres = await getNombres();
-  const nombresOrdenados = ordenBurbuja(nombres);
-  console.log("nombresOrdenados", nombresOrdenados);
+  
+  console.time('BubbleSort');
+  const nombresBubbleSort = bubbleSort(nombres);
+  console.timeEnd('BubbleSort');
+  console.log('Bubble Sort', nombresBubbleSort);
+
+  console.time('QuickSort');
+  const nombresQuickSort = ordenQuickSort(nombres);
+  console.timeEnd('QuickSort');
+  console.log('Quick Sort', nombresQuickSort);
 })();
