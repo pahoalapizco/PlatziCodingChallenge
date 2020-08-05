@@ -28,6 +28,7 @@ npm install
 - [Días 19 20 y 21 - Memory](#Días-19-20-y-21)
 - [Día 22 - ¿Cuánto vas a ahorrar?](#Día-22)
 - [Día 24 - ¿Puedo ahorrar en otros bancos?](#Día-24)
+- [Días 26 y 27 Ordenando ando](#Días-26-y-27)
 
 
 
@@ -382,4 +383,20 @@ const importeInicial = 100,
 const cuenta = new CuentaAhorro(importeInicial, interesMensual, InteresAnual);
 
  console.log(`Ahorro a 12 meses en la cuenta $${cuentaY.calcularAhorro(12)}`);
+```
+
+## `Días 26 y 27`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-puedo-ahorrar-otros-periodos-de-tiempo-puedo-ahorrar-en-otros-bancos/)
+
+Día 26: Ordenar un set de nombres extraidos desde un archivo CSV y los ordena de forma acendente con el metodo de la burbuja.
+
+
+### Implementación 
+```js
+// Implementación 
+(async function () {
+  const nombres = await getNombres();
+  const nombresOrdenados = ordenBurbuja(nombres);
+  console.log("nombresOrdenados", nombresOrdenados);
+})();
 ```
