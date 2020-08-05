@@ -333,6 +333,8 @@ memoryChar().join();
 
 [Challenge P4](https://platzi.com/comunidad/platzicodingchallenge-memory-part4-y-cuanto-vas-a-ahorrar-2/)
 
+Demo [aquí](https://pahoalapizco.github.io/PlatziCodingChallenge/)
+
 De la siguiente lista de caracteres oBtenemos de forma aleatoria 4 de estos caracteres sin repetirse para mostrarlos en pantalla.
 El usuario debe seleccionar el signo en el mismo orden en que aparecieron.
 
