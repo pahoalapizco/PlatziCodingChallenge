@@ -27,6 +27,7 @@ npm install
 - [Día 18 - Memory P1](#Día-18)
 - [Días 19 20 y 21 - Memory](#Días-19-20-y-21)
 - [Día 21 - ¿Cuánto vas a ahorrar?](#Día-21)
+- [Día 24 - ¿Puedo ahorrar en otros bancos?](#Día-24)
 
 
 
@@ -360,4 +361,23 @@ en la consola de tú navegador.
 // Ahorro total a 6 meses con $100 de inversión inicial
 const ahorroTotal = calcularAhorro(100, 6);
 console.log(ahorroTotal);
+```
+
+## `Día 24`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-puedo-ahorrar-otros-periodos-de-tiempo-puedo-ahorrar-en-otros-bancos/)
+
+Calculadora de imtereses a una cantidad determinada de meses según una inversión inicial y un % de interes mensual y/o anual.
+
+Para probarlo puede copiar y pegar el código del archivo `challenge/day24.js`
+en la consola de tú navegador.
+
+
+### Implementación 
+```js
+const importeInicial = 100,
+      interesMensual = 4,
+      InteresAnual   = 0;
+const cuenta = new CuentaAhorro(importeInicial, interesMensual, InteresAnual);
+
+ console.log(`Ahorro a 12 meses en la cuenta $${cuentaY.calcularAhorro(12)}`);
 ```
