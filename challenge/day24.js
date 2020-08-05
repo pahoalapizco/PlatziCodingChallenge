@@ -26,7 +26,6 @@ class CuentaAhorro {
       totalAhorro += totalAhorro * (this._intereses.mensual / 100);
 
       if(this._intereses.anual > 0 && calculoAnual(i)) {
-        console.log('entró')
         totalAhorro += totalAhorro * (this._intereses.anual / 100);
       }
     }
