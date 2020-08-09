@@ -28,7 +28,8 @@ npm install
 - [Días 19 20 y 21 - Memory](#Días-19-20-y-21)
 - [Día 22 - ¿Cuánto vas a ahorrar?](#Día-22)
 - [Día 24 - ¿Puedo ahorrar en otros bancos?](#Día-24)
-- [Días 26 y 27 Ordenando ando](#Días-26-y-27)
+- [Días 26 y 27 - Ordenando ando](#Días-26-y-27)
+- [Días 28 - Código morse](#Día-28)
 
 
 
@@ -408,4 +409,15 @@ Día 27: Ordenar el mismo set de nombres del día 26 pero con el algoritmo de or
   console.log('Quick Sort', nombresQuickSort);
 })();
 
+```
+
+## `Día 28`
+[Challenge](https://platzi.com/comunidad/platzicodingchallenge-dia-28-codigo-morse-y-29-telefono/)
+
+Traductor de frases a código morse.
+
+### Implementación 
+```js
+const traduccion = traducir('Hola mundo');
+console.log(traduccion);
 ```
