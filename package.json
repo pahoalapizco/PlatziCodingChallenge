@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "live-server": "^1.2.1",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "yargs": "^15.4.0"
   }
 }
